@@ -1,0 +1,157 @@
+
+body{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+}
+/*header css*/
+#header{
+    height:60px;
+    background-color:#f79a4c;
+    
+}
+#icon{
+    float:left;
+    margin-left: 1%;
+    margin-top:-1%;
+}
+#social{
+    float:right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/*search css*/
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('images/food-wallpaper.png');
+  
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;  
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: rgba(240, 234, 234, 40%);
+    border-radius:50%;
+    margin-left: 44%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo>span{
+    margin-left: 27%;
+    margin-top: 16%;
+    position: absolute;
+    font-size:80px;
+}
+#heading{
+    margin-left: 27%;
+    margin-top: 13%;
+    position: absolute;
+    font-size:50px;
+    color:white;   
+}
+.dropdown{
+    height:50px;
+    width:60%;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+}
+SELECT{
+    height:50px;
+    width:40%;
+    FONT-SIZE:20PX;
+    text-align: CENTER;
+}
+.RESTSELECT{
+    WIDTH:55%;
+}
+/*quicksearch css*/
+#quickSearch {
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#quickHeading{
+    font-size: 30px;
+    color:#f79a4c;
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left:2%;
+}
+#quickSubHeading{
+    font-size: 20px;
+    color:gray;
+    display:block;
+    line-height:3;
+    margin-left:2%;
+}
+.tileContainer{
+    height: 180px;
+    width:30%;
+  box-shadow: 10px 20px 30px gray;
+    display: inline-block;
+    margin-left:2%;
+    margin-top: 2%;
+}
+.tileComponent1{
+    width:50%;
+    height:180px;
+    float:left;
+}
+.tileComponent1> img {
+    width:100%;
+    height:180px;
+}
+.tileComponent2{
+    width:45%;
+    margin-top: 16%;
+    margin-left: 5%;
+    float:left;
+}
+.componentHeading >a {
+    color:#f79a4c;
+    font-size: 25px;
+}
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+/*footer css*/
+#footer{
+    height:150px;
+    width:100%;
+    margin-top:5%;
+    background-color:#f79a4c;
+}
+#footText{
+text-align:center;
+font-weight: bold;
+}
+.footDiv{
+    height:103px;
+    width:33%;
+    border-right: 2px solid black;
+    float:left;
+}
+.slogo1{
+    height: 50px;
+    width: 50px;
+    margin-left:17%;
+}
+.footDiv>p{
+    margin-left:2%;
+}
+.footerCenter{
+    text-align:center;
+}
+.noBorder{
+    border:none;
+}
